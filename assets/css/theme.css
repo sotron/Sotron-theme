@@ -1,0 +1,139 @@
+
+/*
+::::::::::::::::::
+:: Sotron Theme ::
+::::::::::::::::::
+*/
+
+/*
+::::::::::
+:: Base ::
+::::::::::
+*/
+
+h1, h2, h3, h4, h5, h6, a {
+    color: #778698;
+}
+
+/*
+::::::::::::
+:: Header ::
+::::::::::::
+*/
+
+nav.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    background: #778698;
+    z-index: 10;
+}
+
+nav.header ul {
+    margin: 0 20px;
+    padding: 0;
+    text-align: right;
+}
+
+nav.header ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+}
+
+nav.header ul li a {
+    color: #FFF;
+    padding: 0 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+nav.header ul li a:hover { text-decoration: none; }
+
+nav.header .blog-logo img {
+    height: 50px;
+    margin: 25px;
+}
+
+/*
+:::::::::::::::
+:: Home page ::
+:::::::::::::::
+*/
+
+.home-template nav.header {
+    background: none;
+}
+
+.home-template .main-header:after {
+    background: none;
+}
+
+.home-template .page-description {
+    margin: 0 0 30px 0;
+}
+
+.home-template .page-social {
+    color: #FFF;
+    font-size: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px 10px;
+}
+
+.home-template .page-social i {
+    position: relative;
+    top: 2px;
+}
+
+/*
+::::::::::::::
+:: Tag page ::
+::::::::::::::
+*/
+
+.tag-template nav.header {
+    background: none;
+}
+
+/*
+:::::::::::::::::
+:: Author page ::
+:::::::::::::::::
+*/
+
+.author-template .author-profile { margin-top: 100px; }
+
+/*
+:::::::::::::::
+:: Post page ::
+:::::::::::::::
+*/
+
+.post-template .content { margin-top: 50px; }
+
+.post { max-width: 900px; }
+
+/*
+::::::::::::
+:: Footer ::
+::::::::::::
+*/
+
+.copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.site-footer {
+    color: #FFF;
+    background: #778698;
+    font-size: 1.3rem;
+}
